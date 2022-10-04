@@ -1,0 +1,263 @@
+/*General styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    user-zoom: none;text-decoration: none;
+    list-style: none;
+}
+:root{
+    --litcolor:#ffffff;
+    --blkcolor:#000000;
+    --altcolor:#f57328;
+    --hdfont:'Abyssinica SIL', serif;
+    --tltfont:'Noto Sans JP', sans-serif;
+    --pfont: 'Roboto Condensed', sans-serif;
+}
+.hero-text{
+    font-family: var(--hdfont);
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+p{
+    font-family: var(--pfont);
+    text-align: justify;
+    margin: 20px 0px;
+}
+.px{
+  padding: 0px 100px;
+}
+.df{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    background-color:var(--altcolor) ;
+    padding: 5px 20px;
+    color: var(--litcolor);
+}
+.btn1:hover{
+    background: none;
+    color: var(--altcolor);
+    border: 2px solid var(--altcolor);
+    padding: 5px 20px;
+}
+/* navbar styling */
+nav{
+    background-color: var(--litcolor);
+    width: auto;
+    height: 10vh;
+}
+#brand{
+    font-family: var(--hdfont);
+    color: var(--blkcolor);
+    font-weight: 700;
+}
+nav li{
+    margin: 0px 20px;
+}
+nav a{
+    color: var(--blkcolor);
+    font-family:var(--tltfont);
+}
+nav div a{
+     margin: 0px 20px;
+}
+/* main styling */
+main{
+    width: auto;
+    height: 90vh;
+    background-color:var(--litcolor);
+}
+.main-box{
+    width: 50%;
+    height: 60vh;
+}
+.main-box img{
+    display: block;
+    margin: 0px auto;
+}
+p{
+    color: var(--altcolor);
+    text-align: center;
+    font-family: var(--pfont);
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+    font-family: var(--pfont);
+}
+.main2{
+    width: auto;
+    height: 50vh;
+}
+#main2{
+    width: 20%;
+    height: 480px;
+    display: block;
+}
+#main22{
+    width: 100%;
+    height: 400px;
+}
+#main222{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+button{
+    font-weight: 800;
+    justify-content: center;
+}
+#view-btn{
+    
+}
+.about{
+    width: 100%;
+    height: 700px;
+}
+#about{
+    width: 48%;
+    height: 700px;
+    padding-top: 150px;
+}
+.service{
+    width: auto;
+    height: 730px;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+}
+.service21{
+    width: 100%;
+    height: 5vh;
+    display: block;
+}
+.service22{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+ #service2{
+    width: 33%;
+    height: 175px;
+}
+.fa-solid{
+    font-size: 70px;
+    padding-left: 45%;
+    padding-top: 80px;
+    /* background-color: var(--altcolor); */
+}
+.learn{
+    width: auto;
+    height: 530px;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    padding: 0px 250px;
+}
+.learn21{
+    width: 100%;
+    height: 10vh;
+    display: block;
+}
+.learn22{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+ #learn2{
+    width: 49.5%;
+    height: 430px;
+}
+section{
+    width: auto;
+    height: 200px;
+}
+.faq{
+    width: auto;
+    height: 200px;
+}
+#faq{
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+}
+.subscribe{
+    width: auto;
+    height: 30vh;
+    display: block;
+}
+.subscribe2{
+    width: 40%;
+    height:100px;
+    margin: 0px auto;
+    background-color: gray;
+}
+#subscribe21{
+    width: 80%;
+    height: 70px;
+    margin: 0px auto;
+    background-color: var(--litcolor);
+}
+#subscribe22{
+    width: 20%;
+    height: 15vh;
+    background-color: blue;
+}
+#subscribe212{
+    width: 200px;
+    height: 70px;
+    margin: 0px 409px;
+    align-items: center;
+}
+footer{
+    background-color: var(--button-color);
+    height: 240px;
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+}
+#down{
+    display: block;
+    margin: 10px 50px 0px 20px ;
+    width: 30%;
+}
+footer li{
+    display: block;
+    margin: 20px 20px;
+    color: var(--litcolor);
+}
+footer p{
+    color: var(--blkcolor);
+}
+.footericons{
+    color: white;
+}
+footer a{
+    color: #f6f9fe;
+}
+footer a i{
+    padding: 30px 30px;
+}
+.ending{
+    width: auto;
+    height: fit-content;
+    background-color: var(--altcolor);
+}
+#ending1{
+    width: auto;
+    height: fit-content;
+    background-color: blue;
+}
+#ending2{
+    width: auto;
+    height: 40px;
+    background-color: var(--blkcolor);
+    align-items: center;
+}
